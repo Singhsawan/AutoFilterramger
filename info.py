@@ -166,9 +166,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "https://{ragnardiscussion-9260f30a3b61}/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "http://{ragnardiscussion-9260f30a3b61}/".format(FQDN)
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002108139365'))
