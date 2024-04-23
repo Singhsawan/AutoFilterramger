@@ -25,10 +25,10 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '23400324'))
+API_HASH = environ.get('API_HASH', '6dd43d5bba765cfe72191bf60e65926f')
 OWNER_ID = environ.get('OWNER_ID', '6497757690')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6884897048:AAEL83h6bcMqZxSoSutmwnxFTHoDzVAHAHM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -55,7 +55,7 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'sewxiy') # owner username without @
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690 5115691197').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6981181936 6053231890').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001619818259').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -71,8 +71,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RagnarDiscussion:<password>@cluster0.llxeum4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Raj")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
@@ -81,7 +81,7 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 AI = is_enabled((environ.get("AI","True")), True)
 OPENAI_API = environ.get("OPENAI_API", " ")
 GOOGLE_API_KEY = environ.get("GOOGLE_API_KEY", "AIzaSyD214hhYJ-xf8rfaWX044_g1VEBQ0ua55Q") #DON'T REMOVE ANYTHING!! @CREDIT @SD_BOTS
-AI_LOGS = int(environ.get("AI_LOGS", "-1001868871195")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
+AI_LOGS = int(environ.get("AI_LOGS", "0")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
@@ -115,7 +115,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/team_netflix')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_7x/32') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ᴄᴏᴅᴇғʟɪx ʙᴏᴛs')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002124436497')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+DnmZbLjS0iw0YWI1') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -171,7 +171,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001868871195'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002108139365'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
