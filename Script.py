@@ -10,22 +10,14 @@ class script(object):
 
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ!</b>"""
  
-    ABOUT_TXT = """
-<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Lucy_Filter_bot">ʟᴜᴄʏ ʙᴏᴛ</a>
-❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/veldxd">мɪкєʏ</a>
-❍ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
-❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
-❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
-❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/codeflix_bots">ᴠᴘs</a>
-❍ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ4.3.1 [ᴀᴅᴠᴀɴᴄᴇ ғᴇᴀᴛᴜʀᴇs]
-
-➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ.
-➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ꜱʏꜱᴛᴇᴍ.
-➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ.
-➲  ɪ ᴄᴀɴ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ.
-➲  ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴍᴏᴅᴜʟᴇs ʟɪᴋᴇ ғɪʟᴇ sᴛᴏʀᴇ, ғᴏɴᴛ, ᴋᴀɴɢ, ᴀɴᴅ ᴍᴏʀᴇ.
-
-➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>"""
+    ABOUT_TXT = """<b>
+ 🤖 ᴍʏ ɴᴀᴍᴇ : {}
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/J_shree_ram'>ɴᴏᴛʜɪɴɢ ʙʀᴏ</a>
+ 📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
+ 📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
+ ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
+ 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : <a href='https://www.heroku.com/'>Heroku</a>
+ 🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.0 [sᴛᴀʙʟᴇ​]</b>"""
                   
     DISCLAIMER_TXT =  """<b>ᴛʜɪꜱ ɪꜱ not ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
