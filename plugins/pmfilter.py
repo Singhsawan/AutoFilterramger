@@ -2070,16 +2070,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.OTHER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-      )
+        )
       
-
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
         ], [
             InlineKeyboardButton ('• ᴠɪsɪᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •', url="t.me/otakuflix_network"),
         ], [
-            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(6497757690)),
+            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(6020596552)),
             InlineKeyboardButton('• ᴇᴀʀɴ •', callback_data='shortlink_info')
         ], [
             InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
