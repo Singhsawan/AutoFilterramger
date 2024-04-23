@@ -6,7 +6,7 @@ import urllib.request as urllib
 from io import BytesIO
 from PIL import Image
 from pyrogram import Client
-from info import
+from info import BOT_TOKEN
 
 import telegram
 import logging
